@@ -104,7 +104,8 @@ main p {
 
 main img {
     width: 30%;
-    margin: 10px;
+    margin-left: 5px;
+    margin-right: 2px;
     border-radius: 10px;
 }
 
@@ -138,4 +139,18 @@ main iframe {
 footer {
     height: 50px;
     text-align: center;
+}
+
+@media screen and (max-width: 646px){
+    header > nav > a {
+        padding: 5px;
+    }
+}
+
+@media  screen and (max-width: 737px) {
+    main img {
+        width: 30%;
+        margin: none;
+        border-radius: 10px;
+    }
 }
