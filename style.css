@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #ffa149;
+    --cor1: #F97D0C;
+    --cor2: #DB500B;
+    --cor3: #F12F01;
+    --cor4: #DB130B;
+    --cor5: #F90C64;
+    
+    --sobra0: #731500;
+
+    --fonte-titulo: 'montserrat', arial, helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000001;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+header {
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+header > nav {
+    margin: auto;
+    padding: 10px;
+}
+
+header > nav span::after {
+    content: ' \1F4CD';
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+header > nav > a:hover {
+    background-color: #030F33;
+}
+
+header > h1 {
+    margin: auto;
+    padding: 2em;
+}
+
+header h1::after {
+    content: ' \271D ';
+}
+
+header h1::before {
+    content: ' \271D\000a0 ';
+}
+
+header > p {
+    margin: auto;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+main h2 {
+/*     background-image: linear-gradient(to right, var(--cor4), transparent); */
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+}
+
+main h2:nth-child(7) {
+    margin-top: 50px;
+}
+
+main p {
+    text-indent: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.veja-mais {
+    color: #103dc5;
+    text-decoration: none;
+    transition-duration: .8s;
+}
+
+.veja-mais:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main .programações {
+    width: 30%;
+}
+
+.we {
+    width: 98%;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
