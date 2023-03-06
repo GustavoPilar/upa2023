@@ -30,7 +30,7 @@ p {
 }
 
 header {
-    height: 400px;
+    height: 500px;
     text-align: center;
     color: white;
     background-color: #161B22;
@@ -97,7 +97,7 @@ main h2:nth-child(7) {
 }
 
 main p {
-    text-indent: 30px;
+    text-indent: 5px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -109,13 +109,13 @@ main img {
     border-radius: 10px;
 }
 
-.veja-mais {
-    color: #103dc5;
+.links {
+    color: #166295;
     text-decoration: none;
     transition-duration: .8s;
 }
 
-.veja-mais:hover {
+.links:hover {
     color: white;
     text-decoration: underline;
 }
@@ -139,6 +139,12 @@ main iframe {
 footer {
     height: 50px;
     text-align: center;
+}
+
+@media screen and (max-width: 456px) {
+    header > h1 {
+        padding: 1em;
+    }
 }
 
 @media screen and (max-width: 646px){
