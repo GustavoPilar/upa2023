@@ -37,6 +37,8 @@ header {
     background-image: url('../imagens/wallpaper004.jpg'), linear-gradient(to bottom, #161B22, transparent);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     /* background-color: #161B22; */
 }
 
