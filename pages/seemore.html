@@ -82,16 +82,26 @@
         border-radius: 20px;
        }
        
+       main .left {
+        float: left;
+        margin-right: 20px;
+       }
+
+       main .right {
+        float: right;
+        margin-left: 20px;
+       }
+       
        footer {
         text-align: center;
         padding: 20px;
        }
 
-       @media screen and (max-width: 646px){
+       @media screen and (max-width: 646px) {
         header nav ul li a {
-        padding: 5px;
+            padding: 5px;
+        }   
     }
-}
 
     @media screen and (max-width: 484px) {
         header h1 {
@@ -106,6 +116,18 @@
             margin-left: 10px;
             text-align: left;
         }
+    }
+
+    @media screen and (max-width: 400px) {
+        main .left {
+        float: none;
+        margin-right: none;
+       }
+
+       main .right {
+        float: none;
+        margin-left: none;
+       }
     }
 
     </style>
@@ -125,64 +147,64 @@
     </header>
     <main>
         <section>
-            <article class="left">
+            <article>
                 <h2>Gabriel - Presidente</h2>
                 <div>
-                    <picture>
+                    <picture >
                         <source media="(max-width: 1010px)" srcset="../imagens/presidente-2023-pq.jpg" type="image/jpg">
-                        <img src="../imagens/presidente-2023-g.jpg" alt="">
+                        <img src="../imagens/presidente-2023-g.jpg" alt="" class="left">
+                        <p>
+                            Mais conhecido como "Ruivo", tem 17 anos, curte jogar basquete e assistir NFL. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quis laboriosam, consequatur incidunt provident, sint saepe officia deleniti voluptatibus vitae neque aut magni enim! Aperiam maiores minus suscipit iure quo!
+                        </p>
                     </picture>
-                    <p>
-                        Mais conhecido como "Ruivo", tem 17 anos, curte jogar basquete e assistir NFL. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quis laboriosam, consequatur incidunt provident, sint saepe officia deleniti voluptatibus vitae neque aut magni enim! Aperiam maiores minus suscipit iure quo!
-                    </p>
                 </div>
             </article>
-            <article class="right">
+            <article>
                 <h2>Gustavo - Vice-Presidente</h2>
                     <div>
                         <picture>
                             <source media="(max-width: 1010px)" srcset="../imagens/vice-presidente-2023-pq.jpg" type="image/jpg">
-                            <img src="../imagens/vice-presidente-2023-g.jpg" alt="">
+                            <img src="../imagens/vice-presidente-2023-g.jpg" alt="" class="right">
+                            <p>
+                                Mais conhecido como "Pilar", ou para os mais antigos "parkour". 18 anos e gosta muito de desenvolver site (inclusive sou eu quem criou), tocar violão e jogar bola. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, totam quisquam corrupti esse vitae eius doloribus tenetur rem ex. Ipsum aut ratione dolore reprehenderit sapiente, dolorum placeat dolorem cum minima!
+                            </p>
                         </picture>
-                        <p>
-                            Mais conhecido como "Pilar", ou para os mais antigos "parkour". 18 anos e gosta muito de desenvolver site (inclusive sou eu quem criou), tocar violão e jogar bola. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, totam quisquam corrupti esse vitae eius doloribus tenetur rem ex. Ipsum aut ratione dolore reprehenderit sapiente, dolorum placeat dolorem cum minima!
-                        </p>
                     </div>
             </article>
-            <article class="left">
+            <article>
                 <h2>Julia - Secretária</h2>
                 <div>
                     <picture>
                         <source media="(max-width: 1010px)" srcset="../imagens/secretaria-2023-pq.jpg" type="image/jpg">
-                        <img src="../imagens/secretaria-2023-g.jpg" alt="">
+                        <img src="../imagens/secretaria-2023-g.jpg" alt="" class="left">
+                        <p>
+                            Mais conhecida como "Ju", tem 17 anos e ama cantar, tocar ukulele, piano e violão. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque tempora assumenda vero eaque molestiae similique tempore, et pariatur. Aut sint aliquam facere nulla consectetur quae asperiores reiciendis culpa explicabo natus.
+                        </p>
                     </picture>
-                    <p>
-                        Mais conhecida como "Ju", tem 17 anos e ama cantar, tocar ukulele, piano e violão. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque tempora assumenda vero eaque molestiae similique tempore, et pariatur. Aut sint aliquam facere nulla consectetur quae asperiores reiciendis culpa explicabo natus.
-                    </p>
                 </div>
             </article>
-            <article class="right">
+            <article>
                 <h2>Isabela - Vice-Secretaria </h2>
                 <div>
                     <picture>
                         <source media="(max-width: 1010px)" srcset="../imagens/vice-secretaria-2023-pq.jpg" type="image/jpg">
-                        <img src="../imagens/vice-secretaria-2023.jpg" alt="">
+                        <img src="../imagens/vice-secretaria-2023.jpg" alt="" class="right">
+                        <p>
+                            Conhecida como "Izão" ou "Zabela", tem 17 anos e Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iusto voluptates nobis harum libero reiciendis blanditiis culpa natus impedit labore, quae placeat voluptatem, dolores consectetur eaque numquam aspernatur neque nisi!
+                        </p>
                     </picture>
-                    <p>
-                        Conhecida como "Izão" ou "Zabela", tem 17 anos e Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iusto voluptates nobis harum libero reiciendis blanditiis culpa natus impedit labore, quae placeat voluptatem, dolores consectetur eaque numquam aspernatur neque nisi!
-                    </p>
                 </div>
             </article>
-            <article class="left">
+            <article>
                 <h2>Nicollas - Tesoureiro</h2>
                 <div>
                     <picture>
                         <source media="(max-width: 1010px)" srcset="../imagens/vice-presidente-2023-pq.jpg" type="image/jpg">
-                        <img src="../imagens/vice-presidente-2023-g.jpg" alt="">
+                        <img src="../imagens/vice-presidente-2023-g.jpg" alt="" class="left">
+                        <p>
+                            Mais conhecido como "Nik", tem 17 anos e ama jogar bola. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident vel, dolor maiores et nemo vitae placeat dicta error voluptatem unde consequuntur mollitia minima voluptate cumque ea minus quis eveniet!
+                        </p>
                     </picture>
-                    <p>
-                        Mais conhecido como "Nik", tem 17 anos e ama jogar bola. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident vel, dolor maiores et nemo vitae placeat dicta error voluptatem unde consequuntur mollitia minima voluptate cumque ea minus quis eveniet!
-                    </p>
                 </div>
             </article>
         </section>
