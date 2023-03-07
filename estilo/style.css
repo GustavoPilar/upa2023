@@ -30,7 +30,7 @@ p {
 }
 
 header {
-    height: 500px;
+    height: 300px;
     width: 100%;
     text-align: center;
     color: white;
@@ -150,6 +150,9 @@ footer {
 }
 
 @media screen and (max-width: 456px) {
+    header {
+        height: 200px;
+    }
     header > h1 {
         padding: 1em;
     }
