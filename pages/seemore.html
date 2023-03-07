@@ -16,12 +16,19 @@
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         background-color: #0D1117;
+        font-size: 1.5em;
        }
 
        header {
         background-color: #161B22;
-        height: 200px;
+        background-image: url('../imagens/wallpaper004.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 400px;
+        width: 100%;
         text-align: center;
+        color: black;
        }
 
        header nav ul {
@@ -35,7 +42,7 @@
        }
 
        header nav ul li a {
-        color: white;
+        color: black;
         text-decoration: none;
         transition-duration: 1s;
         border-radius: 10px;
@@ -47,7 +54,6 @@
        }
 
        header a:hover {
-        text-decoration: underline;
         background-color: #166295;
         padding: 30px;
        }
@@ -58,7 +64,8 @@
        }
 
        main {
-        width: 90%;
+        max-width: 1200px;
+        min-width: 320px;
         margin: auto;
        }
        main h2 {
@@ -91,16 +98,36 @@
         float: right;
         margin-left: 20px;
        }
+
+       hr {
+        margin: 20px;
+        border-radius: 50%;
+       }
        
        footer {
         text-align: center;
-        padding: 20px;
+        padding: 10px;
        }
 
        @media screen and (max-width: 646px) {
+        body {
+            font-size: 1em;
+        }
+        header {
+            width: 100%;
+        }
         header nav ul li a {
             padding: 5px;
-        }   
+        }
+
+        main {
+            width: 100%;
+        }
+
+        .left, .right {
+            float: none;
+            margin: 0;
+        }
     }
 
     @media screen and (max-width: 484px) {
@@ -118,27 +145,13 @@
         }
     }
 
-    @media screen and (max-width: 400px) {
-        main .left {
-        float: none;
-        margin-right: none;
-        width: 100%;
-       }
-
-       main .right {
-        float: none;
-        margin-left: none;
-        width: 90%;
-       }
-    }
-
     </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="pages/explore.html">Explore</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="pages/about.html">Sobre</a></li>
                 <li><a href="https://goo.gl/maps/qiwVSnxUmC7FLAik9" target="_blank"><span></span></a></li>
                 <li><a href="pages/programas.html">programações</a></li>
@@ -192,7 +205,7 @@
                         <source media="(max-width: 1010px)" srcset="../imagens/vice-secretaria-2023-pq.jpg" type="image/jpg">
                         <img src="../imagens/vice-secretaria-2023.jpg" alt="" class="right">
                         <p>
-                            Conhecida como "Izão" ou "Zabela", tem 17 anos e Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iusto voluptates nobis harum libero reiciendis blanditiis culpa natus impedit labore, quae placeat voluptatem, dolores consectetur eaque numquam aspernatur neque nisi!
+                            Conhecida como "Izão" ou "Zabela", eu gosto de me maquiar e maquiar outras garotas, gosto de andar de skate ouvindo música, amo lutar jiu-jitsu, desenhar (seja onde for), gosto de dançar (não importa o ritmo), gosto de cantar, amo cozinhar (principalmente doce), eu gosto muito de decorar as coisas, amo andar de patins, gosto muito também de jogar video game e assistir séries comendo alguma coisa
                         </p>
                     </picture>
                 </div>
@@ -208,6 +221,7 @@
                         </p>
                     </picture>
                 </div>
+<hr>
             </article>
         </section>
     </main>
