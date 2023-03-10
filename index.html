@@ -5,18 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon/upa-favicon.ico" type="image/x-icon">
+
+    <!-- LINKS CSS STYLE -->
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/header.css">
+    <link rel="stylesheet" href="estilo/footer.css">
+    <link rel="stylesheet" href="estilo/mediaquerie.css">
+
     <title>Home Page | UPAFaz</title>
-    <!-- 
-        271D  (cruz)
-        1F4CD (local)
-     -->
+
+    <style>
+    @media screen and (max-width: 630px) {
+        header {
+        height: 250px;
+        }
+
+        header > nav {
+            padding: 0em;
+        }
+
+        header h1 {
+            padding: .5em;
+        }
+    }
+    </style>
 </head>
 <body>
     <header>
     <nav>
-        <a href="index.html">home</a>
-        <a href="pages/about.html">Sobre</a>
+        <a href="index.html">Home</a>
+        <a href="pages/diretoria.html">Diretoria</a>
         <a href="https://goo.gl/maps/qiwVSnxUmC7FLAik9" target="_blank"><span></span></a>
         <a href="pages/programas.html">programações</a>
         <a href="pages/adress.html">Contato</a>
@@ -48,7 +66,7 @@
                 </picture>
                 <p>
                     Para ver outros cargos, clique <br>
-                    <a href="pages/seemore.html" class="links">Veja mais &rightarrow;</a>
+                    <a href="pages/diretoria.html" class="links">Veja mais &rightarrow;</a>
                 </p>
             </div>
 
@@ -85,6 +103,7 @@
         </picture>
     </main>
     <footer>
+<hr>
         <p>
             &copy; 2023 - Página criada por <a href="https://github.com/GustavoPilar" target="_blank" class="links">Gustavo Pilar</a>
         </p>

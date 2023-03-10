@@ -29,59 +29,6 @@ p {
     color: white;
 }
 
-header {
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-image: url('../imagens/wallpaper004.jpg'), linear-gradient(to bottom, #161B22, transparent);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-color: #161B22; */
-}
-
-header > nav {
-    margin: auto;
-    padding: 10px;
-}
-
-header > nav span::after {
-    content: ' \1F4CD';
-}
-
-header > nav > a {
-    color: black;
-    text-decoration: none;
-    transition-duration: 1s;
-    border-radius: 10px;
-    padding: 2em;
-}
-
-header > nav > a:hover {
-    background-color: #166295;
-}
-
-header > h1 {
-    color: black;
-    margin: auto;
-    padding: 2em;
-}
-
-header h1::after {
-    content: ' \271D ';
-}
-
-header h1::before {
-    content: ' \271D\000a0 ';
-}
-
-header > p {
-    color: black;
-    margin: auto;
-}
-
 main {
     min-width: 300px;
     max-width: 1200px;
@@ -142,11 +89,6 @@ main iframe {
 
 .we {
     width: 98%;
-}
-
-footer {
-    height: 50px;
-    text-align: center;
 }
 
 @media screen and (max-width: 456px) {
