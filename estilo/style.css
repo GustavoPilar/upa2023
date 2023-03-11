@@ -7,15 +7,6 @@
 }
 
 :root {
-    --cor0: #ffa149;
-    --cor1: #F97D0C;
-    --cor2: #DB500B;
-    --cor3: #F12F01;
-    --cor4: #DB130B;
-    --cor5: #F90C64;
-    
-    --sobra0: #731500;
-
     --fonte-titulo: 'montserrat', arial, helvetica, sans-serif;
 }
 
@@ -37,7 +28,6 @@ main {
 }
 
 main h2 {
-/*     background-image: linear-gradient(to right, var(--cor4), transparent); */
     color: white;
     margin-bottom: 10px;
     padding: 10px;
